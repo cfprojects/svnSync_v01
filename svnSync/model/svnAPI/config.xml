@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<!-- general config -->
+	<property name="os"><value>Windows</value></property> <!-- Windows, Linux -->
+	<property name="engine"><value>apache</value></property> <!-- apache, svnserve -->
+	
+	<property name="tmpPath">
+		<value>.\temp</value>
+	</property>
+	
+	<property name="svnBinary">
+		<value>C:\Program Files\Subversion\bin\svn.exe</value>
+	</property>
+	<property name="svnAdminBinary">
+		<value>C:\Program Files\Subversion\bin\svnadmin.exe</value>
+	</property>
+	
+	<property name="reposPath">
+		<value></value>
+	</property>
+	
+	<!-- Apache Speficic -->
+	<property name="apacheBin">
+		<value>C:\Program Files\Apache Software Foundation\Apache2.2\bin\httpd.exe</value>
+	</property>
+	<property name="apacheConfigFile">
+		<value>C:\Program Files\Apache Software Foundation\Apache2.2\conf\httpd.conf</value>
+	</property>
+	<property name="htpasswdBin">
+		<value>C:\Program Files\Apache Software Foundation\Apache2.2\bin\htpasswd.exe</value>
+	</property>
+</configuration>

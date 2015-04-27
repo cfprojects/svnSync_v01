@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environments>
+	<default>
+        <config>			
+			<!-- app settings -->
+			<property	name="defaultEvent">svnSync.syncBrowser</property>
+			<property	name="showDebug">false</property>
+			<property	name="flushPass"></property>
+			<!-- bug reporting -->
+			<property	name="bugLogWSDL"></property>
+			<!-- custom -->
+			<property	name="svnRequestTimeout">3600</property>
+			<property	name="localRootPath">C:\myLocalPath</property>
+			<property	name="localTempPath">C:\myLocalPath\svnSync\temp</property>
+			<property	name="svnUsername"></property>
+			<property	name="svnPassword"></property>
+			<property	name="repoURL">svn://mySvnServer.com/myRepo</property>
+			<property	name="svnPath">/trunk</property>
+			<property	name="gmt">-4</property>
+			<!-- file type handling -->
+			<property	name="textFileExt">txt,cfm,ini,cfc,htm,html</property>
+			<property	name="imageFileExt">gif,jpg,jpeg,bmp</property>
+			<property	name="binaryFileExt">swf,exe</property>			
+        </config>
+	</default>
+	<environment id="local">
+        <patterns>
+            <pattern>.local</pattern>
+			<pattern>.cf8</pattern>
+        </patterns>
+        <config>
+			<property	name="showDebug">true</property>
+        </config>
+	</environment>
+	<environment id="dev">
+        <patterns>
+            <pattern>.dev</pattern>
+        </patterns>
+        <config>
+        </config>
+	</environment>
+	<environment id="staging">
+        <patterns>
+            <pattern>.staging</pattern>
+        </patterns>
+        <config>
+        </config>
+	</environment>
+	<environment id="production">
+        <patterns>
+            <pattern>[a-zA-Z0-9.]</pattern>
+        </patterns>
+        <config>
+        </config>
+	</environment>
+</environments>		
