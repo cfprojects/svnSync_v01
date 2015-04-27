@@ -1,0 +1,1 @@
+<cflocation addtoken="No" url="../index.cfm?event=admin" />

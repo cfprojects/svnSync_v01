@@ -1,0 +1,235 @@
+body {
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:5px;
+	padding:0;
+}
+
+hr{
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+
+a, a:active, a:focus, a:link, a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.tableBorder {
+	background-color: #eeeeee;
+}
+
+.tableInnerColor {
+	background-color: #ffffff;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+input, select {
+	font-size: 10px;
+	padding-left:2px;
+}
+
+.row1 {
+	background-color: #DEDEDE;
+}
+
+.row2 {
+	background-color: #FFFFFF;
+}
+
+.rowHighLightOn {
+	background-color: #EFFFF0;
+}
+
+.rowSelected {
+	background-color: #EFF2FF;
+}
+
+.resultsTable {
+	border-collapse:collapse;
+	border:1px solid #CCCCCC;
+	margin: 5px 0px 5px 0px; 
+}
+
+.resultsTable th{
+	font-size:10px;
+	color:#666666;
+	border:1px solid #CCCCCC;
+	background-color: #EEEEEE;
+}
+
+.resultsTable td{
+	font-size:10px;
+	border:1px solid #CCCCCC;
+}
+
+#dateTable td{
+	border:none;
+}
+
+.formContainer{
+	padding-top:5px;
+}
+
+.formHeader{
+	background-color:#EFEFEF;
+	color:#666666;
+	border-top:1px solid #CCCCCC;
+}
+
+.formFooter{
+	background-color:#EFEFEF;
+	color:#666666;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.formButton{
+	background-color:#EFEFEF;
+	color:#666666;
+	border:1px solid #333333;
+	width:50px;
+	text-align:center;
+	display:block;
+}
+
+.formTable td{
+	border-bottom:1px solid #CCCCCC;
+}
+
+.formField{
+	width:200px;
+}
+
+.formFieldRequired{
+	width:200px;
+	background-color:#FFF2CF;
+}
+
+.formDateField{
+	width:100px;
+}
+
+.formDateFieldRequired{
+	width:100px;
+	background-color:#FFF2CF;
+}
+
+.formSelectFieldRequired{
+	width:200px;
+	background-color:#FFF2CF;
+}
+
+.formButton{
+	width:75px;
+	color:#333333;
+	background-color:#CCCCCC;
+}
+
+.formTextArea{
+	width:200px;
+	height:100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.formSelectMulitple{
+	width:200px;
+	height:75px;
+}
+
+.innerFormTable td
+{
+	border:none !important;
+}
+
+.pageTitle{
+	font-size:11px;
+	margin-bottom:10px;
+}
+
+.paginationTable{
+	
+}
+
+.hideIt
+{
+	display: none;
+}
+
+.showIt
+{
+	display:block;
+}
+
+.msgBox
+{
+	border:1px dotted #CCCCCC;
+	margin:10px 0px 5px 0px;
+	background-color:#FFFFEF;
+	padding:5px;
+	color: #CF5A67;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align:center;
+}
+
+.browserTable {
+	border-collapse:collapse;
+	border:1px solid #CCCCCC;
+	margin: 5px 0px 5px 0px; 
+}
+
+.browserTable th{
+	font-size:9px;
+	color:#666666;
+	font-weight:normal;
+	border:1px solid #CCCCCC;
+	background-color: #EEEEEE;
+}
+
+.browserTable td{
+	font-size:9px;
+	border:1px solid #CCCCCC;
+}
+
+.logTable {
+	border-collapse:collapse;
+	border:1px solid #CCCCCC;
+	margin: 5px 0px 5px 0px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.logTable th{
+	font-size:10px;
+	color:#666666;
+	font-weight:normal;
+	border:1px solid #CCCCCC;
+	background-color: #EEEEEE;
+}
+
+.logTable td{
+	font-size:10px;
+	border:1px solid #CCCCCC;
+	padding:2px;
+}
